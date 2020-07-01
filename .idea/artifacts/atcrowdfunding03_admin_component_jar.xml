@@ -1,0 +1,48 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="atcrowdfunding03-admin-component:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/atcrowdfunding03_admin_component_jar</output-path>
+    <root id="archive" name="atcrowdfunding03-admin-component.jar">
+      <element id="module-output" name="atcrowdfunding03-admin-component" />
+      <element id="module-output" name="atcrowdfunding04-admin-entity" />
+      <element id="module-output" name="atcrowdfunding05-admin-util" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-tx/4.3.20.RELEASE/spring-tx-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/asm/asm/3.1/asm-3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-orm/4.3.20.RELEASE/spring-orm-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/com/fasterxml/jackson/core/jackson-core/2.9.8/jackson-core-2.9.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/mybatis/mybatis-spring/1.2.2/mybatis-spring-1.2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/aopalliance/aopalliance/1.0/aopalliance-1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-jdbc/4.3.20.RELEASE/spring-jdbc-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Java/jdk1.8.0_201/lib/tools.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-context/4.3.20.RELEASE/spring-context-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/com/github/pagehelper/pagehelper/4.0.0/pagehelper-4.0.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-core/4.3.20.RELEASE/spring-core-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-web/4.3.20.RELEASE/spring-web-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/cglib/cglib/2.2/cglib-2.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/ch/qos/logback/logback-core/1.2.3/logback-core-1.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/mysql/mysql-connector-java/5.1.3/mysql-connector-java-5.1.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/com/alibaba/druid/1.0.31/druid-1.0.31.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-beans/4.3.20.RELEASE/spring-beans-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/aspectj/aspectjweaver/1.9.2/aspectjweaver-1.9.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-expression/4.3.20.RELEASE/spring-expression-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/com/github/jsqlparser/jsqlparser/0.9.1/jsqlparser-0.9.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/slf4j/slf4j-api/1.7.7/slf4j-api-1.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/com/fasterxml/jackson/core/jackson-databind/2.9.8/jackson-databind-2.9.8.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/security/spring-security-config/4.2.10.RELEASE/spring-security-config-4.2.10.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/security/spring-security-core/4.2.10.RELEASE/spring-security-core-4.2.10.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/security/spring-security-web/4.2.10.RELEASE/spring-security-web-4.2.10.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/jstl/jstl/1.2/jstl-1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/security/spring-security-taglibs/4.2.10.RELEASE/spring-security-taglibs-4.2.10.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/security/spring-security-acl/4.2.10.RELEASE/spring-security-acl-4.2.10.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-webmvc/4.3.20.RELEASE/spring-webmvc-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/Java/jdk1.8.0_201/lib/jconsole.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/springframework/spring-aop/4.3.20.RELEASE/spring-aop-4.3.20.RELEASE.jar" path-in-jar="/" />
+      <element id="artifact" artifact-name="atcrowdfunding04-admin-entity:jar" />
+    </root>
+  </artifact>
+</component>

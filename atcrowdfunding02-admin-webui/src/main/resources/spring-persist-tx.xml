@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/tx
+       http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+
+">
+    <!--自动注入service下的对象-->
+    <context:component-scan base-package="com.hzj.crowd.service"></context:component-scan>
+    <!--配置事务管理器-->
+    <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!-- 配置切入点表达式   -->
+    <aop:config>
+<!--    考虑到spring扫描到其他jar包的service    -->
+        <aop:pointcut id="txPointCut" expression="execution(* *..*serviceImpl.*(..))"/>
+        <aop:advisor advice-ref="txAdvisor" pointcut-ref="txPointCut"></aop:advisor>
+    </aop:config>
+    <tx:advice id="txAdvisor" transaction-manager="dataSourceTransactionManager">
+        <tx:attributes>
+            <tx:method name="get*" read-only="true"/>
+            <tx:method name="find*" read-only="true"></tx:method>
+            <tx:method name="query*" read-only="true"></tx:method>
+            <tx:method name="count*" read-only="true"></tx:method>
+<!--
+        REQUIRES_NEW 必须工作在事务中
+        不管当前线程是否有事务都会开启新事务
+        在自己的事务中运行
+        不会受到其他事务回滚的印象
+       -->
+            <tx:method name="save*" propagation="REQUIRES_NEW" rollback-for="java.lang.Exception"></tx:method>
+            <tx:method name="update*" propagation="REQUIRES_NEW" rollback-for="java.lang.Exception"></tx:method>
+            <tx:method name="remove*" propagation="REQUIRES_NEW" rollback-for="java.lang.Exception"></tx:method>
+            <tx:method name="batch*" propagation="REQUIRES_NEW" rollback-for="java.lang.Exception"></tx:method>
+        </tx:attributes>
+
+    </tx:advice>
+
+    <bean id="bCryptPasswordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"></bean>
+</beans>

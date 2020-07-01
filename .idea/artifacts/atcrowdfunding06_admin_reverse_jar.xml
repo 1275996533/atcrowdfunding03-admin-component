@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="atcrowdfunding06-admin-reverse:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/atcrowdfunding06_admin_reverse_jar</output-path>
+    <root id="archive" name="atcrowdfunding06-admin-reverse.jar">
+      <element id="module-output" name="atcrowdfunding06-admin-reverse" />
+      <element id="extracted-dir" path="F:/maven_warehouse1/org/mybatis/mybatis/3.2.8/mybatis-3.2.8.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

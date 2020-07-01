@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="atcrowdfunding04-admin-entity:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/atcrowdfunding04_admin_entity_jar</output-path>
+    <root id="archive" name="atcrowdfunding04-admin-entity.jar">
+      <element id="module-output" name="atcrowdfunding04-admin-entity" />
+    </root>
+  </artifact>
+</component>
