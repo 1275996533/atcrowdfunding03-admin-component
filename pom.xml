@@ -14,7 +14,7 @@
     </modules>
     <packaging>pom</packaging>
     <properties> <!-- 声明属性，对 Spring 的版本进行统一管理 -->
-        <hzj.spring.version>4.3.20.RELEASE</hzj.spring.version> <!-- 声明属性，对 SpringSecurity 的版本进行统一管理 -->
+        <hzj.spring.version>5.3.18</hzj.spring.version> <!-- 声明属性，对 SpringSecurity 的版本进行统一管理 -->
         <hzj.spring.security.version>4.2.10.RELEASE</hzj.spring.security.version>
     </properties>
     <dependencyManagement>
